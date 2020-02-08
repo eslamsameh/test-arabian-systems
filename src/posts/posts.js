@@ -45,6 +45,10 @@ class Posts extends Component {
                     <div className="container" >
                         <h2 className="header">Posts List</h2>
                         <div className="row">
+
+                        <div className="col-md-12">
+                                <NewPostModal addPost={(post) => this.insertPost(post) }></NewPostModal>
+                            </div>
                             <div className="col-md-12">
                             {
                                 this.state.currentPosts && this.state.currentPosts.length ? this.state.currentPosts.map((v, i) => {
@@ -55,9 +59,7 @@ class Posts extends Component {
 
                                
                             </div>
-                            <div className="col-md-12">
-                                <NewPostModal addPost={(post) => this.insertPost(post) }></NewPostModal>
-                            </div>
+                         
                         </div>
                     </div>
                 </PostsStyles>
