@@ -43,7 +43,7 @@ class Posts extends Component {
             <div>
                 <PostsStyles>
                     <div className="container" >
-                        <h2 className="header">Posts List</h2>
+                        <h4 className="header">Posts List</h4>
                         <div className="row">
 
                         <div className="col-md-12">

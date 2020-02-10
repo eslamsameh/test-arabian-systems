@@ -33,17 +33,17 @@ export default class NewPostModal extends Component {
 
                 <Modal show={this.state.show} onHide={this.handleClose}>
                     <Modal.Header closeButton>
-                        <Modal.Title>Create New Post</Modal.Title>
+                        <Modal.Title ><h6 className="modal-title"> New Post</h6></Modal.Title>
                     </Modal.Header>
                     <Modal.Body>
                         {this.renderInputs("title", 'Enter Title')}
                         {this.renderInputs("body", 'Enter Body')}
                     </Modal.Body>
                     <Modal.Footer>
-                        <Button variant="secondary" onClick={this.handleClose}>
+                        <Button variant="light" onClick={this.handleClose}>
                             Close
                                 </Button>
-                        <Button variant="primary" onClick={this.handleSave}>
+                        <Button variant="dark" onClick={this.handleSave}>
                             Save Changes
                                 </Button>
                     </Modal.Footer>

@@ -37,7 +37,8 @@ class ToDos extends Component {
         return (
             <ToDo>
                 <div className="container" >
-                    <h2 className="header">Todos List</h2>
+                    <div className="card">
+                    <h6 className="header">Todos List</h6>
                     <div className="row">
                         <div className="col-md-12">
                             {
@@ -49,6 +50,7 @@ class ToDos extends Component {
                         </div>
                         <div className="col-md-12">
                         </div>
+                    </div>
                     </div>
                 </div>
 
