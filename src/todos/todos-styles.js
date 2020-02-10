@@ -19,7 +19,8 @@ padding: 50px 0px;
     text-decoration: underline;
     font-size: 18px;
     color: #000;
-    font-size: 14px;
+    font-size: 18px;
+    line-height: 20px;
 }
 @media only screen and (max-width: 500px) {
   .d-flex {

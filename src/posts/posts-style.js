@@ -14,12 +14,14 @@ min-height: 90vh;
     cursor: pointer;
     color: #6c757d;
     font-size: 14px;
+
 }
 .active-page{
     text-decoration: underline;
     font-size: 18px;
     color: #000;
-    font-size: 14px;
+    font-size: 18px;
+    line-height: 20px;
 }
 @media only screen and (max-width: 500px) {
   .d-flex {
