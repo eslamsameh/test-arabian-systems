@@ -8,7 +8,7 @@ export const NewPost = styled.div`
     .btn{
         font-size: 15px;
         width: 100%;
-        height: 50px;
+        height: 38px;
 
     }
 }
